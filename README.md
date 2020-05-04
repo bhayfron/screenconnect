@@ -1,2 +1,2 @@
-# docker-screenconnect
+# Screenconnect
 Fast-lightning remote desktop tool
