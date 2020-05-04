@@ -1,8 +1,8 @@
 [Unit]
-Description=Connectwise
+Description=ScreenConnect
 After=docker.service
 Requires=docker.service
 
 [Service]
-ExecStart=/usr/bin/docker run --name connectwise --rm -p 8040:8040 -p 8041:8041 -v /srv/screenconnect:/opt/screenconnect bhayfron/connectwise
+ExecStart=/usr/bin/docker run --name ScreenConnect --rm -p 8040:8040 -p 8041:8041 -v /srv/screenconnect:/opt/screenconnect bhayfron/screenconnect
 ExecStop=/usr/bin/docker stop screenconnect
