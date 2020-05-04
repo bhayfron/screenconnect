@@ -25,4 +25,4 @@ EXPOSE 8040 8041
 # Command
 ADD run.sh /run.sh
 WORKDIR /opt/screenconnect
-CMD ["/bin/sh", "/run.sh"
+CMD ["/bin/sh", "/run.sh"]
